@@ -1,0 +1,21 @@
+.toy-details{
+    background-color: var(--cmps-bgc);
+    padding: var(--def-p);
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    text-align: center;
+}
+
+.btn-details{
+    display: flex;
+    gap: 1em;
+    justify-content: center;
+}
+.btn-details>*{
+    width: 5em;
+}
+.toy-details>button{
+    width: 5em;
+    align-self: center;
+}

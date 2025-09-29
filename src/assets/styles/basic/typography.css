@@ -1,0 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Knewave&family=Patrick+Hand&display=swap');
+
+html,a,option,select{
+  font-family: "Patrick Hand", cursive;
+  font-weight: 500;
+  font-size:large;
+  font-style: normal;
+  padding: 0;
+}

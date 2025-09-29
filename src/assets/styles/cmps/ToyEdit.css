@@ -1,0 +1,15 @@
+.edit-form{
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    background-color: var(--cmps-bgc);
+    min-height: 60%;
+    justify-content: center;
+    text-align: center;
+    min-width: 15em;
+}
+.edit-form>div>button{
+    max-width: 7em;
+    margin-left: 1em;
+    align-self: center;
+}

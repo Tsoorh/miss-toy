@@ -1,0 +1,12 @@
+.filter-sec{
+    background-color: var(--cmps-bgc);
+    padding: var(--def-p);
+    display: flex;
+    flex-direction: column;
+}
+
+.add-new-sec{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}

@@ -1,0 +1,11 @@
+.toys-list-sec{    
+    display: flex;
+    flex-direction: column;
+    background-color: var(--cmps-bgc);
+    padding: var(--def-p);
+}
+.toys-layout{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(15em,1fr));
+    grid-template-rows: repeat(auto-fit,minmax(5em,1fr));
+}

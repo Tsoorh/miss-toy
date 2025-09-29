@@ -1,0 +1,24 @@
+:root{
+    /*header*/
+    --header-bgc: rgba(192, 222, 255, 0.751);
+    --header-c: rgb(10, 11, 41);
+    /*components*/
+    --cmps-bgc:rgba(227, 238, 247, 0.664);
+
+    /*btns*/
+    --btn-clr:rgb(0, 0, 0);
+    --btn-bgc:rgb(248, 177, 177);
+    --btn-clr-h:rgb(0, 0, 0);
+    --btn-bgc-h:rgb(255, 84, 84);
+
+
+    /*a*/
+    --a-color:rgb(91, 0, 0);
+    --a-color-hover:rgb(230, 1, 1);
+
+    /*spaces*/
+    --def-p: 1em;
+    --def-m: 0.8em;
+    --def-br: 0.5em;
+}
+

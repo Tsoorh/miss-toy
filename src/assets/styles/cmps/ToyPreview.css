@@ -1,0 +1,18 @@
+.toy-preview{
+    border: 0.2em var(--header-bgc) solid;
+    background-color: var(--header-bgc);
+    margin: var(--def-m);
+    border-radius: var(--def-br);
+    padding: var(--def-p);
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 10em;
+    min-width: 10em;
+}
+
+.preview-btn{
+    display: flex;
+    justify-content: space-around;
+}
