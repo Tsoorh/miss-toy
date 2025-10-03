@@ -1,5 +1,6 @@
 {
-  "name": "miss-toy",
+  "name": "miss-toy-vite",
+  "homepage": "https://tsoorh.github.io/miss-toy-vite/",
   "private": true,
   "version": "0.0.0",
   "type": "module",
