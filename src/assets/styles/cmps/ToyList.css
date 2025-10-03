@@ -1,5 +1,4 @@
 .toys-list-sec{    
-    display: flex;
     flex-direction: column;
     background-color: var(--cmps-bgc);
     padding: var(--def-p);

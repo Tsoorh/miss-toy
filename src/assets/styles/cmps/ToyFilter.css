@@ -1,15 +1,11 @@
 .filter-inputs{
-    display: flex;
     flex-direction: row;
     justify-content: space-between;
     flex-wrap: wrap;
-    gap: 1em;
+    gap: 1rem;
 }
 
 .filter-form > h1{
-    padding-bottom: 1em;
+    padding-bottom: 1rem;
 }
-.price-div{
-    display: flex;
-    align-items:center;
-}
+

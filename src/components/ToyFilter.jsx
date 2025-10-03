@@ -25,7 +25,7 @@ export function ToyFilter({ filterBy, onSetFilter, categories, range }) {
   return (
     <form className="filter-form">
       <h1>Filter</h1>
-      <div className="filter-inputs">
+      <div className="filter-inputs flex">
         <div>
           <label htmlFor="txt">Name </label>
           <input
@@ -37,7 +37,7 @@ export function ToyFilter({ filterBy, onSetFilter, categories, range }) {
           />
         </div>
 
-        <div className="price-div">
+        <div className="flex align-items">
           <label htmlFor="price">{`${price || max} $`}</label>
           <input
             type="range"

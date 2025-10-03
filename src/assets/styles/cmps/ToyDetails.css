@@ -1,21 +1,19 @@
 .toy-details{
     background-color: var(--cmps-bgc);
     padding: var(--def-p);
-    display: flex;
     flex-direction: column;
-    gap: 1em;
+    gap: 1rem;
     text-align: center;
 }
 
 .btn-details{
-    display: flex;
-    gap: 1em;
+    gap: 1rem;
     justify-content: center;
 }
-.btn-details>*{
-    width: 5em;
+.btn-details >*{
+    width: 5rem;
 }
 .toy-details>button{
-    width: 5em;
+    width: 5rem;
     align-self: center;
 }

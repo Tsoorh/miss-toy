@@ -3,13 +3,13 @@ import { HashRouter } from 'react-router-dom'
 import { Provider } from 'react-redux'
 import './assets/styles/Main.css'
 
-import { AppHeader } from '../components/AppHeader'
-import { HomePage } from '../pages/HomePage'
-import { ToyIndex } from '../pages/ToysIndex'
-import { ToyDetails } from '../components/ToyDetails'
-import { store } from '../store/store'
-import { ToyEdit } from '../components/ToyEdit'
-import { UserMsg } from '../components/UserMsg'
+import { AppHeader } from './components/AppHeader'
+import { HomePage } from './pages/HomePage'
+import { ToyIndex } from './pages/ToysIndex'
+import { ToyDetails } from './components/ToyDetails'
+import { store } from './store/store'
+import { ToyEdit } from './components/ToyEdit'
+import { UserMsg } from './components/UserMsg'
 
 export default function App() {
 

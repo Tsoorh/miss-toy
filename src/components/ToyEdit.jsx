@@ -70,7 +70,7 @@ export function ToyEdit() {
   const { txt, price } = toy;
   const isToyId = toyId ? "Edit" : "Add";
   return (
-    <form className="edit-form sec">
+    <form className="edit-form flex sec">
       <h1>{isToyId} Toy</h1>
       <div>
         <label htmlFor="text">Name </label>

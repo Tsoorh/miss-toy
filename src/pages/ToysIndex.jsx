@@ -44,10 +44,10 @@ export function ToyIndex(){
 
     return(
         <>
-        <section className="filter-sec sec">
+        <section className="filter-sec flex sec">
             <ToyFilter filterBy={filterBy} onSetFilter={onSetFilter} categories={categories} range={range}/>
         </section>
-            <section className="add-new-sec sec">
+            <section className="add-new-sec flex sec">
                 <button onClick={onHandleToyEdit}>Add new toy</button>
             </section>
             <ToyList toys={toys}/>

@@ -5,8 +5,8 @@ export function AppHeader(){
     const navigate=useNavigate();
 
     return (
-        <div className="app-header">
-            <div className="header-logo" onClick={()=>{navigate("/")}}>
+        <div className="app-header flex space-between align-items">
+            <div className="header-logo flex" onClick={()=>{navigate("/")}}>
                 <img width="48" height="48" src="https://img.icons8.com/emoji/48/teddy-bear-.png" alt="teddy-bear-"/>
                 <h1>Miss toy</h1>
             </div>

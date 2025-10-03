@@ -1,10 +1,11 @@
-/* vars */
-@import "vars/variable.css";
+/* setup */
+@import "setup/variable.css";
+@import "setup/typography.css";
 
 /* basic */
 @import "basic/base.css";
 @import "basic/layouts.css";
-@import "basic/typography.css";
+@import "basic/helpers.css";
 
 /*components*/
 @import "cmps/AppHeader.css";

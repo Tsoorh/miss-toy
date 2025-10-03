@@ -43,8 +43,8 @@ export function ToyDetails(){
     if (isLoading || !toy) return <Loading/>
     const {txt,price,labels,createdAt,inStock,nextToyId,prevToyId} = toy;
     return(
-        <section className="toy-details sec">
-            <div className="btn-details">
+        <section className="toy-details flex sec">
+            <div className="btn-details flex">
                 <button onClick={()=>navigate(`/toys/${prevToyId}`)}>Prev</button>
                 <button onClick={()=>navigate(`/toys/${nextToyId}`)}>Next</button>
             </div>

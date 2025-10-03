@@ -44,12 +44,12 @@ export function ToyPreview({toy}){
     
     const {_id,txt,inStock,createAt,price,labels}=toy;    
     return (
-        <article className="toy-preview">
+        <article className="toy-preview flex space-between">
             <h1>{txt}</h1>
             <p> price - {price}$</p>
             <p>{inStock ? 'In-stock' : 'Sold-out'}</p>
 
-            <div className="preview-btn">
+            <div className="preview-btn flex">
                 <button onClick={onHandleClick} value="details" id={_id}>Details</button>
                 <button onClick={onHandleClick} value="edit" id={_id}>Edit</button>
                 <button onClick={onHandleClick} value="delete" id={_id}>Delete</button>

@@ -1,3 +1,15 @@
+*{
+    box-sizing: border-box;
+}
+
+html,a,option,select{
+  font-family: patrick, serif;
+  font-weight: 500;
+  font-size:large;
+  font-style: normal;
+  padding: 0;
+}
+
 p,div,body{
     margin: 0;
     padding: 0;
